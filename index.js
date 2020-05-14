@@ -7,12 +7,11 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
-    message: `1.  "/search/"the movie name u wanna search"
+    message1: "1.  /search/(the movie name u wanna search)",
 
-    2.  /movie/"idIMDB of the movie u wanna see the detail"
-    
-    Thanks to check out ! Best GL - Ngoc Phuc Do
-    `,
+    message2: "2.  /movie/(id-IMDB of the movie u wanna see the detail)",
+
+    message3: "Thanks to check out ! Best GL - Ngoc Phuc Do",
   });
 });
 
