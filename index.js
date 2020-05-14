@@ -1,7 +1,9 @@
 const express = require("express");
+const cors = require("cors");
 const scraper = require("./scraping");
 
 const app = express();
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.json({
@@ -21,7 +23,7 @@ app.get("/movie/:imdbID", (req, res) => {
   });
 });
 
-const port = process.env.port || 5000;
+const port = process.env.port || 8080;
 
 app.listen(port, (err) => {
   if (err) {
