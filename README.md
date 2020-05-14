@@ -2,4 +2,4 @@
 
 2.  /movie/"idIMDB of the movie u wanna see the detail"
 
-Thanks to check out ! Best GL
+Thanks to check out ! Best GL - Ngoc Phuc Do
