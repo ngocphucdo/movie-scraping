@@ -63,7 +63,6 @@ function getMovie(imdbID) {
       const storyLine = $(".canwrap p span").text().trim();
       const trailerLink =
         "https://www.imdb.com" + $(".slate_wrapper .slate a").attr("href");
-
       const movie = {
         title,
         rating,
